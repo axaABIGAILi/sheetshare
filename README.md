@@ -1,8 +1,9 @@
 # Sheet Share
+!['SheetShare preview'](./client/preview.png)
 
 ## A Minimal Sheet Music Sharing App
 
-Sheet Share is a simple music sharing app that allows users to upload, search and browse sheet music for various genres and instruments.
+Sheet Share is a simple music sharing app that allows users to upload, search and browse sheet music for various genres and instruments. See live demo ['here'](https://sheetshare-fork-adejesus.herokuapp.com/).
 
 ## Technology Used
 - HTML, CSS, JavaScript
