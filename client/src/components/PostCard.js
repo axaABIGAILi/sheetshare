@@ -31,10 +31,16 @@ const useStyles = makeStyles(theme => ({
     width: 275,
     margin: "10px",
     display: "inline-block",
-    height: 350
+    height: 350,
+
   },
   media: {
     height: 175
+  },
+  cardContentStyle: {
+    position: "relative", 
+    zIndex: 1, 
+    backgroundColor: "#fff"
   }
 }));
 
@@ -67,10 +73,9 @@ export default function MediaCard({
       </a>
 
       <CardContent
-        style={{ position: "relative", zIndex: 1, backgroundColor: "#353432" }}
+        className={classes.cardContentStyle}
       >
         <Typography
-          style={{ color: "goldenrod" }}
           gutterBottom
           variant="h5"
           component="h2"
@@ -78,7 +83,7 @@ export default function MediaCard({
           {title}
         </Typography>
         <Typography
-          style={{ color: "goldenrod" }}
+          style={{color: "#000"}}
           variant="body2"
           color="textSecondary"
           component="div"
@@ -99,10 +104,10 @@ export default function MediaCard({
 
       <CardActions
         style={{
-          height: "70px",
+          height: "50px",
           position: "relative",
-          zIndex: "2",
-          backgroundColor: "#353432"
+          zIndex: 2,
+          backgroundColor: "#fff"
         }}
       >
         <Button size="small" color="primary">

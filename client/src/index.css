@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: rgb(233, 233, 233);
 }
 
 .navbar {
@@ -34,7 +34,11 @@ a:active {
 
 .MuiAppBar-colorPrimary {
   color: #fff;
-  background-color: #fff !important;
+  background-color: #DBEBE8 !important;
+}
+
+.MuiToolbar-root {
+  background-color: #DBEBE8 !important;
 }
 
 /* FOR LOGO
@@ -51,7 +55,7 @@ logo-child {
 }
 .logotxt {
   font-family: "Lexend Zetta", sans-serif;
-  font-size: 60px;
+  font-size: 48px;
   padding-top: 5%;
   text-transform: uppercase;
   color: #000;
@@ -94,43 +98,8 @@ logo-child {
   background-color: #353432 !important;
 }
 
-.MuiSvgIcon-root {
-  color: rgb(224, 169, 28);
-}
 .logo {
   transition-delay: 4ms;
-}
-span.MuiBottomNavigationAction-label {
-  color: goldenrod;
-}
-span.MuiButton-label {
-  color: goldenrod;
-}
-
-.MuiInput-underline:after {
-  border-bottom: 2px solid goldenrod !important;
-}
-
-.MuiInputLabel-root,
-.MuiInputLabel-animated,
-.MuiFormLabel-root,
-.Mui-focused,
-.MuiFormLabel-root,
-.MuiInputBase-input {
-  color: goldenrod !important;
-}
-
-div[class*="DropzoneArea-dropZone-"] {
-  border-color: goldenrod;
-  background-color: #2c2929 !important;
-  color: goldenrod;
-}
-
-.MuiLinearProgress-colorPrimary {
-  background-color: goldenrod !important;
-}
-div[class*="DropzoneArea-dropZone-"] svg {
-  color: goldenrod !important;
 }
 
 .searchIcon {
