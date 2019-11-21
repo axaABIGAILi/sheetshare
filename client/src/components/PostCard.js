@@ -40,7 +40,8 @@ const useStyles = makeStyles(theme => ({
   cardContentStyle: {
     position: "relative", 
     zIndex: 1, 
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
+    padding: "8px"
   }
 }));
 
@@ -77,7 +78,7 @@ export default function MediaCard({
       >
         <Typography
           gutterBottom
-          variant="h5"
+          variant="h6"
           component="h2"
         >
           {title}
@@ -88,7 +89,7 @@ export default function MediaCard({
           color="textSecondary"
           component="div"
         >
-          <div className="blurb">{blurb}</div>
+          <div className="blurb" style={{height: "30px", overflow: "auto", marginBottom: "8px"}}>{blurb}</div>
           <div className="chipsContainer">
             <Chip
               style={{ marginRight: "5px" }}
@@ -104,7 +105,7 @@ export default function MediaCard({
 
       <CardActions
         style={{
-          height: "50px",
+          height: "30px",
           position: "relative",
           zIndex: 2,
           backgroundColor: "#fff"

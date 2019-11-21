@@ -32,11 +32,6 @@ a:active {
   text-decoration: none;
 }
 
-.MuiAppBar-colorPrimary {
-  color: #fff;
-  background-color: #DBEBE8 !important;
-}
-
 .MuiToolbar-root {
   background-color: #DBEBE8 !important;
 }
