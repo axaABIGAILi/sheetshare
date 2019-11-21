@@ -8,9 +8,6 @@ import Login from "./components/Login";
 import AppBar from "./components/AppBar";
 import SearchBar from "./SearchBar/SearchBar";
 import AllPosts from "./components/AllPosts";
-// import LoadingComponent from './components/LoadingComponent';
-// import AuthenticatedComponent from './components/AuthenticatedComponent';
-//redux
 import thunk from "redux-thunk";
 import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";

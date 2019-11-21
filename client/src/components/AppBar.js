@@ -79,7 +79,6 @@ function PrimarySearchAppBar({ history, googleLogin, user, logout }) {
           handleMenuClose();
           history.push("/all");
         }}
-        style={{ color: "goldenrod" }}
       >
         Profile
       </MenuItem>
@@ -90,7 +89,6 @@ function PrimarySearchAppBar({ history, googleLogin, user, logout }) {
           logout();
           history.push("/");
         }}
-        style={{ color: "goldenrod" }}
       >
         Log out
       </MenuItem>
@@ -122,9 +120,13 @@ function PrimarySearchAppBar({ history, googleLogin, user, logout }) {
                 <div className="logoLeft"></div>
                 <img
                   className="logo"
-                  src={require("./images/headerlogo.png")}
+                  src={require("./images/musicicon03.png")}
+                  style={{
+                    width: 150,
+                    margin: "5px"
+                  }}
                 />
-                <div className="logoRight logotxt"></div>
+                <div className="logoRight logotxt">Sheet SHare</div>
               </div>
             </Link>
           </Typography>
