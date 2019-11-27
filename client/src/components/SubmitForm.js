@@ -233,7 +233,7 @@ export default connect(
         onChange={handleChange("blurb")}
         className={classes.textField}
         margin="normal"
-        helperText="hello"
+        helperText="Type a brief blurb about this song!"
         name="blurb"
         required
         fullWidth

@@ -100,3 +100,12 @@ logo-child {
 .searchIcon {
   padding: 8px 0px 7px 0px !important;
 }
+
+.MuiListItem-root, .MuiList-padding, .MuiListItem-gutters, .MuiListItem-button, .MuiMenuItem-root .MuiMenuItem-gutters {
+  background-color: #fff !important;
+  color: #222 !important;
+}
+
+.DropzoneArea-dropzoneParagraph-210 {
+  font-family: "Arial" !important;
+}
